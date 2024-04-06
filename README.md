@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Jerry George</h1>
-<h3 align="center">A guy who loves tech.</h3>
+<h3 align="center">I love tech.</h3>
 
 - 📝 I regularly write articles on [https://medium.com/@jbotrex](https://medium.com/@jbotrex)
 
