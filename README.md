@@ -1,7 +1,6 @@
 <h1 align="center">Hi 👋, I'm Jerry George</h1>
 <h3 align="center">I love tech.</h3>
 
-- 📝 I regularly write articles on [https://medium.com/@jbotrex](https://medium.com/@jbotrex)
 
 - 💬 Ask me about **tech**
 
@@ -15,8 +14,6 @@
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://twitter.com/jbotrex" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="jbotrex" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/jerry-edeani-594a5b236" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="jerry-edeani-594a5b236" height="30" width="40" /></a>
 <a href="https://medium.com/@jbotrex" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@jbotrex" height="30" width="40" /></a>
 </p>
 
