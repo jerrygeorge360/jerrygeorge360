@@ -1,26 +1,70 @@
-<h1 align="center">Hi 👋, I'm Jerry George</h1>
-<h3 align="center">I love tech.</h3>
+<div align="center">
+  <h1>Hi 👋, I'm Jerry George</h1>
+  <p><strong>Senior Backend Engineer</strong> | Fintech • Web3 • AI/ML Infrastructure</p>
+  <p>Building scalable, secure systems that power real-world financial and digital experiences in Africa and beyond.</p>
 
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=4000&pause=1000&color=00FF9D&center=true&vCenter=true&width=600&lines=Node.js+%2F+TypeScript+%2F+Python;Microservices+%2F+Distributed+Systems;AI%2FRAG+%2F+Blockchain+%2F+Payments;Always+learning+and+shipping!" alt="Typing SVG" />
 
-- 💬 Ask me about **tech**
+</div>
 
-- 📫 How to reach me **jbotrex@gmail.com**
+<br/>
 
-- ⚡ Fun fact **elephants smell water.**
+### About Me
+- 💻 Currently focused on **production-grade backend systems**, **AI-integrated applications**, and **fintech infrastructure**
+- 🌍 Based in **Nigeria** — passionate about financial inclusion and emerging tech in Africa
+- 🚀 Built and shipped real-user products: custodial crypto wallets, autonomous portfolio protocols, AI transcription platforms, RAG assistants
+- 🏆 Hackathon winner: Telegram TON Contest + NEAR Protocol Hackathon
+- 📚 45+ open-source repositories — active contributor in backend, Web3, and AI/ML tools
+- ⚡ Fun fact: **Elephants can smell water from miles away** 🐘💧
 
-### Blogs posts
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
+<br/>
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://medium.com/@jbotrex" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@jbotrex" height="30" width="40" /></a>
+### Tech Stack & Tools
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=nodejs,ts,python,go,fastify,flask,fastapi,prisma,postgres,mongodb,redis,docker,git,azure,gcp,linux" alt="Tech Stack" />
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> </a> <a href="https://www.blender.org/" target="_blank" rel="noreferrer"> <img src="https://download.blender.org/branding/community/blender_community_badge_white.svg" alt="blender" width="40" height="40"/> </a> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://dart.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" alt="dart" width="40" height="40"/> </a> <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="40" height="40"/> </a> <a href="https://flutter.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://gohugo.io/" target="_blank" rel="noreferrer"> <img src="https://api.iconify.design/logos-hugo.svg" alt="hugo" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://www.selenium.dev" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/detain/svg-logos/780f25886640cef088af994181646db2f6b1a3f8/svg/selenium-logo.svg" alt="selenium" width="40" height="40"/> </a> <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/> </a> </p>
+- **Backend:** Node.js (Fastify,Express), TypeScript, Python (Flask/FastAPI/Django), Golang (proficient)
+- **Databases & Caching:** PostgreSQL (Prisma), MongoDB, Redis, BullMQ/Celery
+- **AI/ML:** RAG pipelines, Whisper, HuggingFace, LlamaIndex, LangChain, federated learning
+- **Blockchain/Web3:** Ethereum (viem), Solidity, ERC-4337/7715, EVM
+- **DevOps:** Docker, CI/CD, Azure Blob Storage, Firebase, Linux
+- **Other:** REST APIs (Swagger/Flasgger), Vitest testing, AES-256 security, Prometheus monitoring
 
-<h3 align="left">Support:</h3>
-<p><a href="https://ko-fi.com/jbotrex"> <img align="left" src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" height="50" width="210" alt="jbotrex" /></a></p><br><br>
+<br/>
 
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=jerrygeorge360&show_icons=true&locale=en&layout=compact" alt="jerrygeorge360" /></p>
+### Featured Projects
+
+| Project | Description | Tech | Links |
+|---------|-------------|------|-------|
+| **WebPayy** | Production custodial Telegram wallet bot for real ETH/ERC20 transactions | Node.js, TypeScript, Prisma, Redis, BullMQ, Viem | [GitHub](https://github.com/jerrygeorge360/webpayybot) |
+| **Drift** | Autonomous AI-driven portfolio management protocol (ERC-4337 + ERC-7715) | TypeScript, EVM, AI execution | [GitHub](https://github.com/jerrygeorge360/Drift) |
+| **ShortCast** | AI-powered micro podcast platform with Whisper transcription | Python (Flask), Celery, Redis, Azure | [GitHub](https://github.com/jerrygeorge360/shortcast) |
+| **SpotRAG** | Conversational RAG music assistant with Spotify API | Python, Chroma, LLM/RAG | [GitHub](https://github.com/jerrygeorge360/SpotRAG) |
+| **fed-rag** | Federated RAG fine-tuning framework | Python, HuggingFace, LangChain | [GitHub](https://github.com/jerrygeorge360/fed-rag) |
+
+More on my [GitHub Repositories](https://github.com/jerrygeorge360?tab=repositories)
+
+<br/>
+
+### Let's Connect
+
+<p align="center">
+  <a href="mailto:jbotrex@gmail.com">
+    <img src="https://img.shields.io/badge/Email-jbotrex@gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/jerrygeorge360">
+    <img src="https://img.shields.io/badge/GitHub-jerrygeorge360-black?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://medium.com/@jbotrex">
+    <img src="https://img.shields.io/badge/Medium-@jbotrex-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" />
+  </a>
+  &nbsp;&nbsp;
+</p>
+
+<br/>
+
+Thanks for stopping by! Feel free to explore my repos, star projects you like, or reach out if you're working on fintech, AI, or Web3 — always open to collaborations. 🚀
