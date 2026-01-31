@@ -67,4 +67,12 @@ More on my [GitHub Repositories](https://github.com/jerrygeorge360?tab=repositor
 
 <br/>
 
+<p align="center">
+  <img 
+    src="https://metrics.lecoq.io/jerrygeorge360?template=classic&languages=1&languages.limit=8&languages.details=percentage&languages.threshold=2%&languages.colors=github&languages.excluded=html,css" 
+    alt="Languages Metrics"
+  />
+</p>
+
+
 Thanks for stopping by! Feel free to explore my repos, star projects you like, or reach out if you're working on fintech, AI, or Web3 — always open to collaborations. 🚀
