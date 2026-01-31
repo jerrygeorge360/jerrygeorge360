@@ -67,13 +67,9 @@ More on my [GitHub Repositories](https://github.com/jerrygeorge360?tab=repositor
 
 <br/>
 
-### Language Usage Across My Repositories
+### Top Languages
 
-<p align="center">
-  <img 
-    src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=jerrygeorge360&layout=compact&hide=html,css&langs_count=6&theme=tokyonight&hide_border=true"
-    alt="Top Languages"
-  />
-</p>
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=jerrygeorge360&layout=compact)
+
 
 Thanks for stopping by! Feel free to explore my repos, star projects you like, or reach out if you're working on fintech, AI, or Web3 — always open to collaborations. 🚀
