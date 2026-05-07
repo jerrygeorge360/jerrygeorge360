@@ -13,7 +13,6 @@
 - Based in **Nigeria** passionate about financial inclusion and emerging tech in Africa
 - Built and shipped real-user products: custodial crypto wallets, autonomous portfolio protocols, AI transcription platforms, RAG assistants
 - Hackathon wins: Telegram TON Contest · NEAR Protocol Hackathon
-- Shipped at ETHGlobal Open Agents 2026
 - Active open-source contributor across backend, Web3, AI/ML, and the **Stellar ecosystem**
 - Fun fact: elephants can smell water from miles away
 
