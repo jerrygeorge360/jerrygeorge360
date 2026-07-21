@@ -24,6 +24,8 @@
 |---------|-------------|------|
 | **PoolIt** | Shared subscription service split costs on streaming, SaaS, and digital services *(in development)* | Co-Founder |
 | **MentalQ** | Telehealth platform leveraging ZK proofs for private, verifiable mental health consultations *(in development)* | Co-Founder |
+| **MIRA** | An AI memory system that helps assistants remember important information across conversations and provide more accurate, personalized responses | **Co-Founder & Architecture Lead** |
+
 
 <br/>
 
