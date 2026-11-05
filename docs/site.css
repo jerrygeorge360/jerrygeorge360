@@ -94,6 +94,30 @@ img { max-width: 100%; }
   .oss-row { grid-template-columns: 1fr; gap: 13px; }
   .oss-row a { justify-self: start; }
 }
+.chain-section { border-top: 1px solid var(--line); }
+.chain-section .section-title-row { margin-bottom: 43px; }
+.chain-list { border-top: 1px solid var(--ink); }
+.chain-item { display: grid; grid-template-columns: .34fr 1fr 80px; align-items: start; gap: 28px; padding: 29px 0 33px; border-bottom: 1px solid var(--line); }
+.chain-index { font-size: 11px; font-weight: 700; letter-spacing: .1em; color: var(--accent); text-transform: uppercase; padding-top: 7px; }
+.chain-item h3 { font-size: clamp(27px, 3vw, 41px); font-weight: 500; line-height: 1.2; letter-spacing: -.055em; margin: 0 0 9px; }
+.chain-item h3 a { text-decoration: none; }
+.chain-item h3 a:hover { color: var(--accent); }
+.chain-item p { font-size: 14px; color: var(--muted); line-height: 1.85; max-width: 690px; margin: 0 0 10px; }
+.chain-stack { font-size: 11px; line-height: 1.8; color: #7a8075; letter-spacing: .025em; }
+.chain-link { font-size: 12px; font-weight: 700; text-decoration: none; border-bottom: 1px solid var(--ink); padding: 5px 0; white-space: nowrap; justify-self: end; }
+.chain-link:hover { color: var(--accent); border-color: var(--accent); }
+.chain-more { display: grid; grid-template-columns: .34fr 1fr; gap: 28px; margin-top: 31px; align-items: start; }
+.chain-more p { font-size: 12px; font-weight: 700; line-height: 1.5; color: var(--muted); margin: 0; }
+.chain-more div { display: flex; align-items: center; flex-wrap: wrap; column-gap: 24px; row-gap: 12px; }
+.chain-more a { font-size: 12px; font-weight: 600; text-decoration: none; border-bottom: 1px solid #adb0aa; padding-bottom: 3px; }
+.chain-more a:hover { color: var(--accent); border-color: var(--accent); }
+@media (max-width: 760px) {
+  .chain-item { grid-template-columns: 1fr auto; gap: 10px 20px; padding: 24px 0 27px; }
+  .chain-index { grid-column: 1 / -1; padding-top: 0; }
+  .chain-item > div { grid-column: 1 / -1; }
+  .chain-link { grid-column: 1 / -1; justify-self: start; margin-top: 8px; }
+  .chain-more { grid-template-columns: 1fr; gap: 15px; }
+}
 .research-section { border-top: 1px solid var(--line); }
 .research-section .section-title-row { margin-bottom: 44px; }
 .publication-entry { border-top: 1px solid var(--ink); border-bottom: 1px solid var(--line); padding: 34px 0 40px; display: grid; grid-template-columns: .34fr 1fr; gap: 30px; }
