@@ -1,50 +1,133 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f4f4ee">
-  <meta name="description" content="Résumé of Jerry George, software engineer specializing in Python backend systems, APIs, integrations and infrastructure.">
-  <title>Résumé — Jerry George · Software Engineer</title>
-  <style>
-  :root{--ink:#1b3027;--mute:#55665b;--line:#dce4d9;--bg:#f4f4ee}
-  *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);font:14px/1.65 Arial,Helvetica,sans-serif;color:var(--ink)}
-  .toolbar{max-width:910px;margin:24px auto 16px;display:flex;justify-content:space-between;gap:14px;align-items:center;padding:0 18px}.toolbar a{text-decoration:none;font-weight:700;color:var(--ink)}.toolbar button{border:0;border-radius:100px;background:var(--ink);color:#fff;padding:12px 18px;cursor:pointer;font-weight:700}
-  .page{background:#fff;max-width:910px;margin:0 auto 36px;padding:55px 66px;box-shadow:0 10px 55px #1b302710;border:1px solid #e7e9e5}
-  .kicker{font-size:11px;color:#5b8065;text-transform:uppercase;font-weight:800;letter-spacing:.16em}h1,h2,h3,p{margin-top:0}h1{font-size:42px;line-height:1.1;letter-spacing:-.055em;margin:10px 0 8px}h2{font-size:13px;letter-spacing:.09em;text-transform:uppercase;margin:30px 0 13px;padding-bottom:8px;border-bottom:1px solid var(--line)}h3{font-size:16px;letter-spacing:-.02em;margin-bottom:1px}.role{font-weight:700;font-size:18px;color:#56715c}.contact{display:flex;gap:7px 17px;flex-wrap:wrap;margin:19px 0 25px;font-size:12px;color:#526358}.contact a{color:inherit;overflow-wrap:anywhere}p{margin-bottom:13px}.summary{font-size:14px;line-height:1.75}.skills{display:grid;grid-template-columns:1fr 1fr;gap:9px 24px}.skills p{margin:0;font-size:13px}.skills b{color:#2e5941}.entry{margin-bottom:20px}.entry-head{display:flex;justify-content:space-between;gap:18px;align-items:baseline}.entry-head span{font-size:12px;color:#61716a;white-space:nowrap}.subline{font-size:12px;font-weight:700;color:#68816d;margin:4px 0 9px}.entry ul{margin:0 0 7px;padding-left:20px}.entry li{margin-bottom:5px}.project{margin-bottom:16px}.project h3{margin-bottom:5px}.project p{font-size:13px;margin-bottom:0}.project a{color:#356749}.note{color:#66776e;font-size:12px;margin-top:20px}.footer{font-size:11px;color:#77857d;border-top:1px solid var(--line);margin-top:30px;padding-top:15px}
-  @media(max-width:650px){.page{padding:34px 22px;margin:0 10px 30px}.toolbar{margin-top:15px}h1{font-size:34px}.skills{grid-template-columns:1fr}.entry-head{display:block}.entry-head span{display:block}.contact{display:block}.contact span{display:block;margin-top:4px}}
-  @media print{@page{size:A4;margin:13mm}body{background:#fff;font-size:10.2pt;line-height:1.45}.toolbar{display:none}.page{margin:0;max-width:none;box-shadow:none;border:0;padding:0}h1{font-size:28pt}h2{margin-top:14pt;margin-bottom:7pt}.entry{break-inside:avoid;margin-bottom:11pt}.project{break-inside:avoid;margin-bottom:9pt}.skills{grid-template-columns:1fr 1fr}.footer{margin-top:16pt}a{text-decoration:none!important}}
-  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fafaf7">
+  <meta name="description" content="Résumé of Edeani Jerry George, software engineer focused on Python backends, APIs, databases, integrations and production delivery.">
+  <title>Résumé — Jerry George</title>
+  <link rel="stylesheet" href="site.css">
 </head>
-<body>
-  <div class="toolbar"><a href="index.html">← Back to portfolio</a><button onclick="window.print()">Print / Save as PDF ↗</button></div>
-  <main class="page">
-    <div class="kicker">Software engineer · Backend & systems</div>
-    <h1>Edeani Jerry George</h1>
-    <div class="role">Python Backend · APIs · Integrations · Full-Stack Delivery</div>
-    <div class="contact"><span>Nigeria</span><span><a href="mailto:jerrygithub360@gmail.com">jerrygithub360@gmail.com</a></span><span><a href="https://github.com/jerrygeorge360">github.com/jerrygeorge360</a></span><span><a href="https://petgyro.com">petgyro.com</a></span></div>
-    <p class="summary">Software engineer with 4+ years of experience across client projects, production applications and backend systems. Builds APIs, asynchronous workflows, database-backed services and integrations using Python, PostgreSQL and modern deployment tooling. Comfortable working across the product lifecycle, from requirements and design to debugging and deployment. Industry experience includes education and ride-hailing, with independent financial-systems and AI infrastructure prototypes.</p>
-    <h2>Technical strengths</h2>
-    <div class="skills">
-      <p><b>Backend:</b> Python, FastAPI, Flask, Django, Node.js, REST APIs, WebSockets</p>
-      <p><b>Data:</b> PostgreSQL, MySQL, SQLite, Redis, SQLAlchemy, Alembic</p>
-      <p><b>Infrastructure:</b> Docker, Linux, Nginx, CI/CD, VPS deployments, monitoring</p>
-      <p><b>Integrations:</b> Payment APIs, webhooks, OAuth, cloud storage, background jobs</p>
-      <p><b>Front-end:</b> JavaScript, TypeScript, React, Next.js</p>
-      <p><b>Additional:</b> MQTT, vector retrieval, Celery, Git/GitHub</p>
+<body class="resume-page">
+  <a class="skip" href="#resume">Skip to résumé</a>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="wordmark" href="index.html">jerry george<span>.</span></a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="index.html#work">Work</a>
+        <a href="index.html#experience">Experience</a>
+        <a class="nav-email" href="mailto:jerrygithub360@gmail.com">Email ↗</a>
+      </nav>
     </div>
-    <h2>Professional experience</h2>
-    <section class="entry"><div class="entry-head"><h3>Software Developer — Digital Dreams / Linkskool</h3><span>2026 — Present</span></div><div class="subline">Education software and school web platforms</div><ul><li>Collaborate with a team of developers to build and maintain web features, client school websites and portals.</li><li>Integrate user-facing systems with APIs, investigate defects and support live application delivery.</li><li>Work across front-end and full-stack requirements, from implementation and testing to production fixes.</li></ul></section>
-    <section class="entry"><div class="entry-head"><h3>Backend Developer — Waytu</h3><span>2024 — 2026</span></div><div class="subline">Ride-hailing and mobility platform</div><ul><li>Built Python and Node.js backend services for booking and ride workflows, including REST APIs, real-time communication and payment integrations.</li><li>Worked with PostgreSQL performance, queries and indexes; improved selected response times by approximately 40%.</li><li>Supported troubleshooting of database, integration and connectivity issues in a running product.</li></ul></section>
-    <section class="entry"><div class="entry-head"><h3>Independent Backend / Full-Stack Developer</h3><span>2021 — 2024</span></div><div class="subline">Client and contract projects</div><ul><li>Developed applications, data models, authenticated endpoints, integrations and background processing with Python and JavaScript stacks.</li><li>Worked directly with clients and managed deployment, Linux hosting, domains, SSL and post-launch debugging.</li></ul></section>
-    <h2>Selected engineering work</h2>
-    <section class="project"><h3>MIRA — Persistent memory for AI agents</h3><p><b>Python, FastAPI, SQLite, ChromaDB, Docker.</b> Led architecture and implementation of a structured memory system with durable observations, typed relationships, correction-aware facts, configurable retrieval and inspection traces. <a href="https://github.com/jerrygeorge360/mira">Repository ↗</a></p></section>
-    <section class="project"><h3>Petgyro — Content and product platform</h3><p><b>Next.js, FastAPI, PostgreSQL, Docker.</b> Built editorial, product-information and administration workflows, including authentication, structured content, integration and deployment. <a href="https://petgyro.com">Product ↗</a></p></section>
-    <section class="project"><h3>ShortCast — Asynchronous media platform</h3><p><b>Flask, PostgreSQL, Celery, Redis, Azure Blob Storage.</b> Built APIs and backend processing around user uploads, file storage and long-running media tasks. <a href="https://github.com/jerrygeorge360/shortcast">Repository ↗</a></p></section>
-    <section class="project"><h3>IoT Data Store — Real-time ingestion and monitoring</h3><p><b>FastAPI, PostgreSQL, MQTT, Prometheus, Grafana.</b> Created data ingestion and monitoring services for sensor devices, including health checks, REST queries and metrics. <a href="https://github.com/jerrygeorge360/iot-data-store">Repository ↗</a></p></section>
-    <section class="project"><h3>Creditra — Credit-line contract prototype</h3><p><b>Rust, Soroban.</b> Experimented with credit limits, utilization, risk parameters and credit-line lifecycle states, including validation and contract tests. <a href="https://github.com/jerrygeorge360/Creditra-Contracts">Repository ↗</a></p></section>
-    <h2>Education & training</h2>
-    <p><b>Mechanical Engineering</b> — University of Nigeria, Nsukka. Relevant engineering work included Python-based instrumentation, data collection and machine learning.<br><b>Professional Diploma, Software Development</b> — Digital Dreams Academy, 2021.</p>
-    <p class="note">Projects labelled prototypes are independent engineering work, not employment claims in regulated financial institutions.</p>
-    <div class="footer">Edeani Jerry George · <a href="mailto:jerrygithub360@gmail.com">jerrygithub360@gmail.com</a> · <a href="https://github.com/jerrygeorge360">GitHub</a></div>
+  </header>
+  <main id="resume" class="shell section" aria-labelledby="resume-title">
+    <div class="resume-heading">
+      <div>
+        <span class="eyebrow">Curriculum vitae / 2026</span>
+        <h1 id="resume-title">Jerry George<span class="period">.</span></h1>
+        <p>Python backend · APIs · Integrations · Full-stack software</p>
+      </div>
+      <button type="button" class="print-button" onclick="window.print()">Print / Save PDF ↗</button>
+    </div>
+    <div class="hero-links">
+      <a class="text-link" href="mailto:jerrygithub360@gmail.com">jerrygithub360@gmail.com ↗</a>
+      <a class="text-link muted" href="https://github.com/jerrygeorge360" target="_blank" rel="noopener noreferrer">github.com/jerrygeorge360 ↗</a>
+      <a class="text-link muted" href="https://petgyro.com" target="_blank" rel="noopener noreferrer">petgyro.com ↗</a>
+    </div>
+    <p class="resume-intro">Software engineer with 4+ years of hands-on experience across client projects, production software and backend systems. I develop REST APIs, data-backed services, integrations and asynchronous workflows with Python and PostgreSQL, and work across product design, deployment and debugging. My professional experience spans education and mobility; my independent projects include financial-system prototypes and AI infrastructure.</p>
+
+    <section class="cv-section" aria-labelledby="cv-experience">
+      <h2 id="cv-experience">Experience</h2>
+      <div class="cv-content">
+        <article class="cv-role">
+          <div>
+            <h3>Software Developer</h3>
+            <p class="org">Digital Dreams / Linkskool</p>
+            <ul>
+              <li>Collaborate with a team of software developers on features for a school-management application and client school websites and portals.</li>
+              <li>Integrate interfaces with application APIs, debug production issues and contribute to testing and delivery of web applications.</li>
+              <li>Work across frontend and full-stack requirements, supporting client-specific implementations and improvements.</li>
+            </ul>
+          </div>
+          <div class="cv-date">2026 — Present</div>
+        </article>
+        <article class="cv-role">
+          <div>
+            <h3>Backend Developer</h3>
+            <p class="org">Waytu</p>
+            <ul>
+              <li>Built Python and Node.js services for ride-hailing workflows, with REST APIs, WebSockets, payment integrations and third-party APIs.</li>
+              <li>Optimized selected PostgreSQL queries and indexes, improving response times by approximately 40%.</li>
+              <li>Supported production troubleshooting, real-time connectivity and database-backed workflows.</li>
+            </ul>
+          </div>
+          <div class="cv-date">2024 — 2026</div>
+        </article>
+        <article class="cv-role">
+          <div>
+            <h3>Independent Backend / Full-Stack Developer</h3>
+            <p class="org">Client & contract projects</p>
+            <ul>
+              <li>Delivered web applications and backend services with authentication, integrations, database migrations and asynchronous processing.</li>
+              <li>Worked with clients on requirements, deployment, Linux hosting, domains, SSL and post-launch fixes.</li>
+            </ul>
+          </div>
+          <div class="cv-date">2021 — 2024</div>
+        </article>
+      </div>
+    </section>
+
+    <section class="cv-section" aria-labelledby="cv-skills">
+      <h2 id="cv-skills">Technical skills</h2>
+      <div class="cv-grid">
+        <p><strong>Backend.</strong> Python, FastAPI, Flask, Django, Node.js, REST APIs, WebSockets.</p>
+        <p><strong>Data.</strong> PostgreSQL, MySQL, SQLite, Redis, SQLAlchemy, Alembic.</p>
+        <p><strong>Operations.</strong> Docker, Linux, Nginx, CI/CD, VPS deployment, health checks, monitoring.</p>
+        <p><strong>Integrations.</strong> Payment APIs, webhooks, OAuth, queues, cloud storage.</p>
+        <p><strong>Frontend.</strong> JavaScript, TypeScript, React, Next.js, HTML, CSS.</p>
+        <p><strong>Additional.</strong> Celery, MQTT, vector search, Git/GitHub.</p>
+      </div>
+    </section>
+
+    <section class="cv-section" aria-labelledby="cv-projects">
+      <h2 id="cv-projects">Selected projects</h2>
+      <div class="cv-content">
+        <article class="cv-project">
+          <h3>MIRA — Memory-Integrated Reasoning Architecture</h3>
+          <p>Led architecture of a persistent-memory system for AI agents with durable records, typed graph relationships, correction handling, retrieval modes and inspectable traces. <strong>Python, FastAPI, SQLite, ChromaDB, Docker.</strong></p>
+          <a href="https://github.com/jerrygeorge360/mira">github.com/jerrygeorge360/mira ↗</a>
+        </article>
+        <article class="cv-project">
+          <h3>Petgyro — Editorial and product-discovery platform</h3>
+          <p>Built publishing, product and admin workflows across a frontend, API and database, including authentication and deployment. <strong>Next.js, FastAPI, PostgreSQL, Docker.</strong></p>
+          <a href="https://petgyro.com">petgyro.com ↗</a>
+        </article>
+        <article class="cv-project">
+          <h3>ShortCast — Media processing backend</h3>
+          <p>Developed APIs and asynchronous jobs for uploads, media storage and processing. <strong>Flask, Celery, Redis, PostgreSQL, Azure.</strong></p>
+          <a href="https://github.com/jerrygeorge360/shortcast">github.com/jerrygeorge360/shortcast ↗</a>
+        </article>
+        <article class="cv-project">
+          <h3>IoT Data Store — Telemetry and monitoring</h3>
+          <p>Built an MQTT-to-FastAPI sensor ingestion service with persistent storage, REST queries and monitoring. <strong>FastAPI, MQTT, PostgreSQL, Prometheus, Grafana.</strong></p>
+          <a href="https://github.com/jerrygeorge360/iot-data-store">github.com/jerrygeorge360/iot-data-store ↗</a>
+        </article>
+        <article class="cv-project">
+          <h3>Creditra and Ajo — Financial-systems prototypes</h3>
+          <p>Explored contract-based credit-line rules and rotating savings workflows through independent blockchain experiments; these are not professional banking roles. <strong>Rust, Soroban, Solidity, Flow EVM.</strong></p>
+          <a href="https://github.com/jerrygeorge360/Creditra-Contracts">Creditra ↗</a> · <a href="https://github.com/jerrygeorge360/Ajo">Ajo ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="cv-section" aria-labelledby="cv-education">
+      <h2 id="cv-education">Education & training</h2>
+      <div class="cv-content">
+        <p><strong>Mechanical Engineering</strong> — University of Nigeria, Nsukka. Engineering research included Python-assisted instrumentation, sensor readings and data analysis.</p>
+        <p><strong>Professional Diploma, Software Development</strong> — Digital Dreams Academy, 2021.</p>
+      </div>
+    </section>
+    <p class="footer-sign">Edeani Jerry George · Nigeria · <a href="mailto:jerrygithub360@gmail.com">jerrygithub360@gmail.com</a></p>
   </main>
-</body></html>
+</body>
+</html>
