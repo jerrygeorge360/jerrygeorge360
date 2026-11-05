@@ -7,7 +7,7 @@
   <meta name="description" content="Jerry George is a software engineer working across Python backends, blockchain systems, payment integrations and AI infrastructure. Selected work and open-source contributions.">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Jerry George — Software Engineer">
-  <meta property="og:description" content="Backend engineering, blockchain systems and the products that keep them running.">
+  <meta property="og:description" content="Backend engineering, AI agent systems and blockchain infrastructure.">
   <meta property="og:url" content="https://jerrygeorge360.github.io/jerrygeorge360/">
   <link rel="canonical" href="https://jerrygeorge360.github.io/jerrygeorge360/">
   <title>Jerry George — Software Engineer</title>
@@ -20,6 +20,7 @@
       <a class="wordmark" href="#top" aria-label="Jerry George, home">jerry george<span>.</span></a>
       <nav class="nav" aria-label="Main navigation">
         <a href="#work">Work</a>
+        <a href="#ai">AI</a>
         <a class="optional" href="#blockchain">Blockchain</a>
         <a href="#experience">Experience</a>
         <a class="optional" href="#research">Research</a>
@@ -37,7 +38,7 @@
       <div class="hero-bottom">
         <p class="hero-caption">From the database to the interface.<br>Still interested in what happens after deployment.</p>
         <div>
-          <p class="hero-lede">I build backend and on-chain systems, and the <em>products around them.</em></p>
+          <p class="hero-lede">I build backend, AI and on-chain systems, and the <em>products around them.</em></p>
           <p class="hero-desc">I work across Python APIs, databases, smart contracts and payment infrastructure—the parts of software that need to behave correctly. My projects range from live web products to on-chain tooling and memory systems for AI agents.</p>
           <div class="hero-links">
             <a class="text-link" href="#work">Selected work <span class="arrow" aria-hidden="true">↘</span></a>
@@ -48,7 +49,7 @@
     </section>
     <div class="shell between-line" aria-label="Current role and focus">
       <span>Currently working across backend and full-stack software</span>
-      <span>Backend · Blockchain · Product engineering</span>
+      <span>Backend · AI agents · Blockchain</span>
     </div>
     <section id="work" class="shell section" aria-labelledby="work-title">
       <div class="section-title-row">
@@ -152,9 +153,57 @@
         </div>
       </div>
     </section>
+    <section id="ai" class="shell section ai-section" aria-labelledby="ai-title">
+      <div class="section-title-row">
+        <span class="section-no">02 / AI &amp; agent systems</span>
+        <div>
+          <h2 class="section-title" id="ai-title">Beyond the <em>prompt.</em></h2>
+          <p class="section-note">My AI work centers on the engineering around language models: persistent memory, retrieval, context construction, agent workflows and ways to test whether they work.</p>
+        </div>
+      </div>
+      <div class="chain-list">
+        <article class="chain-item">
+          <span class="chain-index">01 / Agent memory</span>
+          <div>
+            <h3><a href="https://github.com/jerrygeorge360/mira" target="_blank" rel="noopener noreferrer">MIRA</a></h3>
+            <p>Designed and developed a persistent memory layer for AI agents, combining durable observations, typed graph relationships, correction-aware facts and multiple retrieval strategies. The runtime reconstructs context with evidence traces rather than relying on ever-growing chat history.</p>
+            <span class="chain-stack">Python · FastAPI · LLM providers · ChromaDB · graph memory · MCP</span>
+          </div>
+          <a class="chain-link" href="https://github.com/jerrygeorge360/mira" target="_blank" rel="noopener noreferrer" aria-label="View MIRA project">Source ↗</a>
+        </article>
+        <article class="chain-item">
+          <span class="chain-index">02 / RAG</span>
+          <div>
+            <h3><a href="https://github.com/jerrygeorge360/SpotRAG" target="_blank" rel="noopener noreferrer">SpotRAG</a></h3>
+            <p>A conversational music assistant using Spotify data and retrieval-augmented generation. It connects data extraction, intent classification, vector search and model-generated responses.</p>
+            <span class="chain-stack">Python · Flask · Spotify API · Chroma · RAG</span>
+          </div>
+          <a class="chain-link" href="https://github.com/jerrygeorge360/SpotRAG" target="_blank" rel="noopener noreferrer" aria-label="View SpotRAG project">Source ↗</a>
+        </article>
+        <article class="chain-item">
+          <span class="chain-index">03 / Agent workflows</span>
+          <div>
+            <h3><a href="https://github.com/loaf-protocol/loaf-sizzler" target="_blank" rel="noopener noreferrer">Loaf Sizzler</a></h3>
+            <p>A portable runtime for agents to post jobs, negotiate, bid and verify work through peer-to-peer messages, exposed as MCP tools with on-chain settlement.</p>
+            <span class="chain-stack">Python · MCP · agent workflows · P2P · blockchain integration</span>
+          </div>
+          <a class="chain-link" href="https://github.com/loaf-protocol/loaf-sizzler" target="_blank" rel="noopener noreferrer" aria-label="View Loaf Sizzler project">Source ↗</a>
+        </article>
+      </div>
+      <div class="chain-more">
+        <p>What I work on</p>
+        <div>
+          <span>LLM integration</span>
+          <span>Retrieval &amp; embeddings</span>
+          <span>Persistent memory</span>
+          <span>Graph reasoning</span>
+          <span>Evaluation &amp; ablations</span>
+        </div>
+      </div>
+    </section>
     <section id="blockchain" class="shell section chain-section" aria-labelledby="blockchain-title">
       <div class="section-title-row">
-        <span class="section-no">02 / Blockchain engineering</span>
+        <span class="section-no">03 / Blockchain engineering</span>
         <div>
           <h2 class="section-title" id="blockchain-title">Under the hood, <em>on-chain.</em></h2>
           <p class="section-note">I've spent a lot of time with wallets, transaction flows, smart contracts and the infrastructure around them. These projects span different chains and different kinds of engineering problems.</p>
@@ -219,7 +268,7 @@
     </section>
     <section id="research" class="research-section shell section" aria-labelledby="research-title">
       <div class="section-title-row">
-        <span class="section-no">03 / Research &amp; publications</span>
+        <span class="section-no">04 / Research &amp; publications</span>
         <div>
           <h2 id="research-title" class="section-title">Research, <em>in print.</em></h2>
           <p class="section-note">Alongside building software, I've contributed to published engineering research.</p>
@@ -245,7 +294,7 @@
     <section id="experience" class="story-section section" aria-labelledby="experience-title">
       <div class="shell">
         <div class="section-title-row">
-          <span class="section-no">04 / Experience</span>
+          <span class="section-no">05 / Experience</span>
           <div>
             <h2 id="experience-title" class="section-title">Where the work <em>gets real.</em></h2>
             <p class="section-note">I've worked on production APIs, web applications and a range of client projects. Different systems, similar engineering questions.</p>
@@ -282,14 +331,14 @@
     </section>
     <section id="about" class="shell section" aria-labelledby="about-title">
       <div class="about-grid">
-        <span class="section-no">05 / A bit about me</span>
+        <span class="section-no">06 / A bit about me</span>
         <div>
           <h2 id="about-title" class="section-title" style="margin-bottom:43px">Curiosity beyond <em>the code.</em></h2>
           <div class="about-content">
             <p class="about-statement">I studied mechanical engineering. These days, I write software—but the habit of <em>measuring, testing and figuring things out</em> has stayed with me.</p>
             <div>
               <p class="about-details">I've moved between client software, independently built products and developer tools. Some projects start with a client need; others begin because I want to understand how something works.</p>
-              <p class="about-details" style="margin-top:16px">My focus is on backend engineering, blockchain integrations and the work connecting them to real products. I also enjoy delivering the <strong>whole product</strong> when that's what's needed.</p>
+              <p class="about-details" style="margin-top:16px">My focus is on backend engineering, AI-agent infrastructure, blockchain integrations and connecting them to real products. I also enjoy delivering the <strong>whole product</strong> when that's what's needed.</p>
               <div class="about-links">
                 <a class="text-link" href="https://github.com/jerrygeorge360" target="_blank" rel="noopener noreferrer">GitHub <span class="arrow" aria-hidden="true">↗</span></a>
                 <a class="text-link" href="resume.html">Résumé <span class="arrow" aria-hidden="true">↗</span></a>
@@ -301,7 +350,7 @@
     </section>
     <section id="contact" class="shell contact-section" aria-labelledby="contact-title">
       <div class="contact-top">
-        <span class="section-no">06 / Contact</span>
+        <span class="section-no">07 / Contact</span>
         <p class="contact-lead">Something interesting in mind?</p>
       </div>
       <h2 id="contact-title" class="contact-title"><a href="mailto:jerrygithub360@gmail.com?subject=Hello%20Jerry">Let's talk ↗</a></h2>
